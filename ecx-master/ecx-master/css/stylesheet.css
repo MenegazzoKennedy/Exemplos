@@ -1,0 +1,1310 @@
+/* 
+* Fonte Padrão
+* 
+* Stylesheet.css
+* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+* @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap');
+*	
+* header.php
+* <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+* 
+*/
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url(../fonts/GalanoGrotesqueBold.otf),
+    	 url(../fonts/GalanoGrotesqueMedium.otf),
+    	 url(../fonts/GalanoGrotesqueRegular.otf),
+    	 url(../fonts/GalanoGrotesqueSemiBold.otf);
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+@font-face {
+    font-family: 'Galano Grotesquemedium';
+    src: url(../fonts/GalanoGrotesqueMedium.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano GrotesqueMediumregular';
+    src: url(../fonts/GalanoGrotesqueRegular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Grotesquebold';
+    src: url(../fonts/GalanoGrotesqueBold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Grotesquesemibold';
+    src: url(../fonts/GalanoGrotesqueSemiBold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Galano Grotesqueregular';
+    src: url(../fonts/GalanoGrotesqueRegular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*Principais
+-------------------------------------------------------------- */
+ 	body{-webkit-font-smoothing:auto; color: #000; font-family: 'Galano Grotesque', bold; font-size: 16px; line-height: 150%; font-weight: 300 }
+	h1{font-family: 'Galano Grotesque', bold; font-size: 64px; color: #000; }
+	h2{font-family: 'Galano Grotesque', bold; font-size: 48px; color: #000; }
+	h3{font-family: 'Galano Grotesque', bold; font-size: 22px; color: #000; }
+	h4{font-family: 'Galano Grotesque', bold; font-size: 20px; color: #000; }
+	h5{font-family: 'Galano Grotesque', bold; font-size: 18px; color: #000; }
+	h6{font-family: 'Galano Grotesque', bold; font-size: 14px; color: #000; }
+	p{color: #000; font-family: 'Galano GrotesqueMediumregular', bold; font-size: 18px; line-height: 150%; font-weight: 300}
+	a{color: #000; font-family: 'Galano GrotesqueMediumregular', bold; font-size: 16px; line-height: 150%; font-weight: 300; text-decoration: none;}
+	a:hover{color:#000 ;text-decoration: none}
+	* a:hover, a:hover{color:#000;text-decoration: none}
+	a:visited{text-decoration: none}
+	a:focus, *:focus{box-shadow: none!important; outline: none!important; text-decoration: none}
+	img{max-width: 100%; height: auto}
+	body {
+		font-family: 'Galano Grotesque', sans-serif;
+	}
+	
+	.pd-zero{padding: 0;}
+
+	
+/* WordPress Core 
+/---------------------------------------------------------------------------- */
+	.alignnone {margin: 5px 20px 20px 0;}
+	.aligncenter,div.aligncenter {display: block;margin: 5px auto 5px auto;}
+	.alignright {float:right;margin: 5px 0 20px 20px;}
+	.alignleft {float: left;margin: 5px 20px 20px 0;}
+	a img.alignright {float: right;margin: 5px 0 20px 20px;}
+	a img.alignnone {margin: 5px 20px 20px 0;}
+	a img.alignleft {float: left;margin: 5px 20px 20px 0;}
+	a img.aligncenter {display: block;margin-left: auto;margin-right: auto}
+	.wp-caption {background: #fff;border: 1px solid #f0f0f0;max-width: 96%; /* Image does not overflow the content area */padding: 15px 3px 10px;text-align: center;}
+	.wp-caption.alignnone {margin: 5px 20px 20px 0;}
+	.wp-caption.alignleft {margin: 5px 20px 20px 0;}
+	.wp-caption.alignright {margin: 5px 0 20px 20px;}
+	.wp-caption img {border: 0 none;height: auto;margin: 0;max-width: 98.5%;padding: 0;width: auto;}
+	.wp-caption p.wp-caption-text {font-size: 11px;line-height: 17px;margin: 0;padding: 0 4px 5px;}
+	.nopadding{padding: 0;} 
+	.nomargin{margin: 0;}
+/* ThemePart
+/---------------------------------------------------------------------------- */
+
+/* Template Header 
+/---------------------------------------------------------------------------- */
+#header-cabecalho{
+	padding: 16px 0;
+}
+#header-cabecalho .header-botao a {
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 12px 30px;
+    font-family: 'Galano Grotesquemedium';
+}
+#header-cabecalho .header-botao a:first-child{
+	margin-right: 16px;
+}
+#header-cabecalho .header-botao a:hover {
+    color: #fff;
+    background-color: #FFB71A;
+    border-color: #FFB71A;
+}
+
+#header-cabecalho .header-botao {
+	text-align: right;
+}
+#header-cabecalho .header-logo{
+	height: 100%;
+	display: flex;
+}
+#header-cabecalho .header-logo a{
+	display: block;
+	margin: auto 0;
+}
+#header-cabecalho .header-logo a img {
+    height: 32px;
+}
+
+/* Template Destaque 
+/---------------------------------------------------------------------------- */
+#sec-destaque{
+    position: relative;
+    overflow: hidden;
+    background-color: #010068;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+#sec-destaque .destaque-conteudo{
+    display: flex;
+    align-items: center;
+}
+#sec-destaque .destaque-conteudo h1{
+    color: #fff;
+    font-weight: 700;
+}
+#sec-destaque .destaque-conteudo a:first-child{
+    margin-right: 25px;
+}
+#sec-destaque .destaque-conteudo a{
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 15px 24px;
+    background: #fff0;
+}
+#sec-destaque .destaque-conteudo a:hover{
+    background: #fff;
+    color: #010068;
+}
+#sec-destaque .destaque-conteudo p{
+    color: #fff;
+    padding-right: 25px;
+    margin-bottom: 50px;
+}
+#sec-destaque .destaque-conteudo p span{
+    color: #FFB71A;
+    font-weight: 700;
+}
+#sec-destaque .destaque-img{
+    position: relative;
+    height: 656px;
+    overflow: hidden;
+}
+#sec-destaque .destaque-img div{
+    border-radius: 16px 16px 16px 0px;
+    position: absolute;
+    background: #F0F4FA 0% 0% no-repeat padding-box;
+    padding: 16px 24px;
+    box-shadow: -5px 5px 16px #0047BA14;
+    top: 40%;
+    left: 57%;
+    transition:all 0.8s ease;
+}
+#sec-destaque .destaque-img:hover div{
+    top: 35%;
+    transition:all 0.8s ease;
+}
+#sec-destaque .destaque-img div h4, #sec-destaque .destaque-img div span{
+    margin: 0;
+    color: #2D2935;
+}
+#sec-destaque .destaque-img div span{
+    display: table-cell;
+    border-bottom: 9px solid #FFB71A;
+    line-height: 7px;
+    padding-top: 5px;
+	padding-right: 9px;
+}
+#sec-destaque .destaque-img::before{
+    content: '';
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background-size: contain;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+/* Template Funcionamento 
+/---------------------------------------------------------------------------- */
+#sec-funcionamento{
+	background-color: #000066;
+	padding: 123px 0 132px;
+}
+#sec-funcionamento .funcionamento-conteudo{
+	text-align: center;
+	color: #fff;
+}
+#sec-funcionamento .funcionamento-conteudo label{
+	color: #FFB71A;
+	font-family: 'Galano Grotesquemedium';
+	font-size: 16px;
+}
+#sec-funcionamento .funcionamento-conteudo h3{
+	color: #fff;
+	font-size: 32px;
+	padding: 18px 0 16px;
+	line-height:  48px;
+}
+#sec-funcionamento .funcionamento-conteudo p{
+	color: #fff;
+	font-family: 'Galano GrotesqueMediumregular';
+	font-size: 16px;
+	max-width: 1008px;
+	margin: auto;
+	line-height:  21px;
+}
+#sec-funcionamento .funcionamento-arrastar{
+	display: none;
+}
+#sec-funcionamento .funcionamento-timeline{
+	margin: 123px 0;
+	overflow: auto;
+
+}
+#sec-funcionamento .funcionamento-timeline .funcionamento-timeline-conteudo{
+	position: relative;
+	 width: 1299px;
+}
+#sec-funcionamento .funcionamento-timeline .funcionamento-timeline-conteudo div{
+	position: absolute;
+	top: 5px;
+}
+#sec-funcionamento .funcionamento-timeline .funcionamento-timeline-conteudo div:nth-child(1){
+	left: 0;
+}
+#sec-funcionamento .funcionamento-timeline .funcionamento-timeline-conteudo div:nth-child(2){
+	left: 317px;
+}
+#sec-funcionamento .funcionamento-timeline .funcionamento-timeline-conteudo div:nth-child(3){
+	right: 70px;
+}
+#sec-funcionamento .funcionamento-timeline .funcionamento-timeline-conteudo div h4{
+	color: #FFB71A;
+	font-size: 36px;
+	display: flex;
+	line-height:  21px;
+}
+#sec-funcionamento .funcionamento-timeline .funcionamento-timeline-conteudo div h4 span{
+	width: 6px;
+	height: 3px;
+	background-color: #FFB71A;
+	margin: auto 6px;
+	transform: matrix(0.64, -0.77, 0.77, 0.64, 0, 0);
+	border-radius: 0.30000001192092896px;
+}
+#sec-funcionamento .funcionamento-timeline .funcionamento-timeline-conteudo div span{
+	color: #FFFFFF;
+	font-family: 'Galano Grotesquemedium';
+	font-size: 16px;
+	text-align: left;
+}
+#sec-funcionamento .funcionamento-timeline .funcionamento-timeline-conteudo img{
+margin-top: 135px;
+}
+#sec-funcionamento .funcionamento-mensagem{
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 359px;
+    display: flex;
+}
+#sec-funcionamento .funcionamento-mensagem h2{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 78px;
+	max-width: 935px;
+	margin: auto;
+	line-height:  104px;
+}
+#sec-funcionamento .funcionamento-mensagem h2 span{
+	color: #FFB71A;
+}
+#sec-funcionamento .funcionamento-arrastar .funcionamento-arrastar-seta{
+	display: inline-flex;
+    margin-right: 15px;
+    margin-left: -41px;
+}
+
+/* Template Beneficio 
+/---------------------------------------------------------------------------- */
+	#sec-beneficio{
+		margin: 124px 0;
+	}
+	#sec-beneficio .beneficio-titulo{
+		color:  #2D2935;
+		margin-bottom: 80px;
+	}
+	#sec-beneficio .beneficio-titulo h2{
+		color: #2D2935;
+	}
+	#sec-beneficio .beneficio-titulo h2 span{
+		line-height: 0px;
+	    display: inline-block;
+	    border-radius: 0.30000001192092896px;
+	    border-bottom: 17px solid #FFB71A;
+	    color: #2D2935;
+	}
+	#sec-beneficio .beneficio-titulo .beneficio-titulo-direito{
+		text-align: left;
+	    display: flex;
+	    justify-content: end;
+	}
+	#sec-beneficio .beneficio-titulo .beneficio-titulo-direito div{
+		width: fit-content;
+	}
+	#sec-beneficio .beneficio-titulo .beneficio-titulo-direito img{
+		display: block;
+	}
+	#sec-beneficio .beneficio-titulo .beneficio-titulo-direito span{
+		font-size: 13px;
+		color: #0047BA;
+		line-height: 17px;
+		display: block;
+		font-family: 'Galano Grotesquesemibold',sans-serif;
+	}
+	#sec-beneficio .beneficio-escolha{
+		display: flex;
+		margin-bottom: 90px;
+		position: relative;
+	}
+	#sec-beneficio .beneficio-escolha span{
+		width: 50%;
+	    text-align: center;
+	    color: #9D9AAD;
+	    padding-bottom: 35px;
+	    padding-top: 35px;
+	    border-bottom: 2px solid #E5E5EF;
+	    font-family: 'Galano GrotesqueMediumregular',sans-serif;
+	    cursor: pointer;
+	    font-size: 22px;
+	}
+	#sec-beneficio .beneficio-escolha label{
+		border-bottom: 2px solid #0047BA;
+	    width: 50%;
+	    position: absolute;
+	    bottom: 0;
+	    transition: all 0.5s ease;
+    	left: 0;
+	}
+	#sec-beneficio .beneficio-escolha .beneficio-escolha-label{
+		transition: all 0.5s ease;
+    	left: 50%;
+	}
+	#sec-beneficio .beneficio-escolha .beneficio-escolha-selecionado{
+		color: #0047BA;
+	}
+	#sec-beneficio .beneficio-escolha, #sec-beneficio .beneficio-itens{
+		width: 80%;
+	}
+	#sec-beneficio .beneficio-itens div{
+		margin-bottom: 70px;
+	}
+	#sec-beneficio .beneficio-itens div:last-child{
+		margin-bottom: 0;
+	}
+	#sec-beneficio .beneficio-itens img{
+		width: 32px;
+   		margin-right: 36px;
+	}
+	#sec-beneficio .beneficio-itens span{
+		color: #2D2935;
+		font-size: 20px;
+		font-family: 'Galano Grotesquemedium',sans-serif;
+	}
+	#sec-beneficio .beneficio-itens a{
+		color: #FFFFFF;
+	    padding: 14px 0;
+	    background: #FFB71A;
+	    border-radius: 10px;
+	    transition: all 0.5s ease;
+	    font-size: 16px;
+	    width: 198px;
+	}
+	#sec-beneficio .beneficio-itens a:hover{
+		background: #E6A518;
+		transition: all 0.5s ease;
+	}
+	#sec-beneficio .beneficio-imagem img{
+		max-height: 803px;
+	}
+
+/* Template Contact 
+/---------------------------------------------------------------------------- */
+#sec-contact{
+    padding: 123px 0;
+}
+#sec-contact .contact-titulo{
+    text-align: center;
+    color: #2D2935;
+}
+#sec-contact .contact-titulo label{
+    color: #FFB71A;
+    font-family: 'Galano Grotesquemedium';
+    font-size: 16px;
+}
+#sec-contact .contact-titulo h2{
+    font-size: 32px;
+    padding-top: 18px;
+    line-height:  48px;
+    margin: 0;
+	color: #2D2935;
+}
+#sec-contact .contact-titulo h2 span{
+    position: relative;
+}
+#sec-contact .contact-titulo h2 span::before{
+    content: "";
+    border-radius: 0.30000001192092896px;
+    background: #ffb71a;
+    height: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 4px;
+    left: 7px;
+    z-index: -1;
+}
+#sec-contact .contact-box, #sec-contact .contact-escolha span{
+    margin-top: 131px;
+	font-weight: 700;
+}
+#sec-contact .contact-box{
+    display: flex;
+}
+#sec-contact .contact-box .contact-box-interna{
+    max-width: 423px;
+    margin: 0 auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 40px #2D29351A;
+    border-radius: 16px;
+    height: fit-content;
+}
+#sec-contact .contact-box .contact-box-interna div{
+    padding: 40px;
+    text-align: left;
+    border-bottom: 1px solid #D3D2D1;
+}
+#sec-contact .contact-box .contact-box-interna div:last-child{
+    border-bottom: none;
+}
+#sec-contact .contact-box .contact-box-interna div img{
+    display: block;
+    height: 32px;
+    margin-bottom: 15px;
+}
+#sec-contact .contact-box .contact-box-interna div h4{
+    font-size: 18px;
+    line-height: 24px;
+    color: #2D2935;
+}
+#sec-contact .contact-box .contact-box-interna div span{
+    font-size: 16px;
+    line-height: 21px;
+    color: #605E70;
+    font-family: 'Galano GrotesqueMediumregular';
+}
+
+#sec-contact .contact-form p label{
+    color: #2D2935;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+    font-family: 'Galano GrotesqueMediumregular';
+}
+#sec-contact .contact-form p select, #sec-contact .contact-form p input[type=text], #sec-contact .contact-form p input[type=tel], #sec-contact .contact-form p input[type=email]{
+    padding: 20px 25px;
+    border: 1px solid #9D9AAD;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #2D2935;
+    font-weight: 800;
+    width: 100%;
+}
+#sec-contact .contact-form p select{
+    color: #9D9AAD;
+    font-family: 'Galano GrotesqueMediumregular';
+}
+#sec-contact .contact-form p input[type=text]::placeholder, #sec-contact .contact-form p input[type=tel]::placeholder, #sec-contact .contact-form p input[type=email]::placeholder{
+    color: #9D9AAD;
+    font-family: 'Galano GrotesqueMediumregular';
+    font-weight: 400;
+}
+#sec-contact .contact-form p input[type=submit]{
+    width: 100%;
+    background: #FFB71A 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Galano GrotesqueMediumregular';
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+#sec-contact .contact-escolha{
+    display: flex;
+    margin-bottom: 55px;
+    position: relative;
+}
+#sec-contact .contact-escolha span{
+    width: 50%;
+    text-align: center;
+    color: #9D9AAD;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #E5E5EF;
+    font-family: 'Galano GrotesqueMediumregular',sans-serif;
+    cursor: pointer;
+    font-size: 22px;
+}
+#sec-contact .contact-escolha label{
+    border-bottom: 2px solid #0047BA;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.5s ease;
+    left: 0;
+}
+#sec-contact .contact-escolha .contact-escolha-label{
+    transition: all 0.5s ease;
+    left: 50%;
+}
+#sec-contact .contact-escolha .contact-escolha-selecionado{
+    color: #0047BA;
+}
+#sec-contact .contact-escolha, #sec-contact .contact-itens{
+    width: 80%;
+}
+#sec-contact .contact-form .contact-caixa-select{
+    padding: 20px 25px;
+    border: 1px solid #9D9AAD;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    width: 100%;
+    display: flex;
+    height: 69px;
+    position: relative;
+    align-items: end;
+    transition: border-radius 0.5s;
+}
+#sec-contact .contact-form .contact-caixa-select.selectAberto{
+    border-radius: 10px 10px 0px 0px;
+    transition: border-radius 0.5s;
+}
+#sec-contact .contact-form .contact-caixa-select p{
+    display: inline-block;
+    margin: auto;
+    color: #9d9aad;
+    position: absolute;
+    font-size: 16px;
+    width: 75%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#sec-contact .contact-form .contact-caixa-select.selectNotNull p{
+    font-weight: 800;
+    color: #2D2935;
+}
+#sec-contact .contact-form .contact-caixa-select i{
+    color: #0047BA;
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: calc(50% - 6px);
+    font-size: 16px;
+}
+#sec-contact .contact-form .contact-caixa-fora{
+    position: relative;
+}
+#sec-contact .contact-form .contact-caixa-selecao{
+    border: 1px solid rgb(157, 154, 173);
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 16px;
+    font-weight: 800;
+    width: 100%;
+    position: absolute;
+    background: white;
+    z-index: 9;
+    max-height: 150px;
+    overflow: auto;
+}
+#sec-contact .contact-form .contact-caixa-selecao .selectOption a{
+    color: #9d9aad;
+    margin: 0 25px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    width: auto;
+    display: block;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#sec-contact .contact-form .contact-caixa-selecao .selectOption a:first-child{
+    padding-top: 5px;
+}
+#sec-contact .contact-form .contact-caixa-selecao .selectOption:hover{
+    background: #a99ab4;
+}
+#sec-contact .contact-form .contact-caixa-selecao .selectOption a:hover{
+    color: #fff;
+}
+#sec-contact .contact-form .contact-caixa-selecao div{
+    font-size: 13px;
+    color: #a99ab4;
+    font-weight: 400;
+}
+
+/* Template Footer
+/---------------------------------------------------------------------------- */
+#footer {
+    font-family: 'Galano GrotesqueMediumregular';
+    padding: 48px 0;
+    border-top: 1px solid #E5E5EF;
+}
+
+#footer .footer-logo {
+	max-width: 132px;
+    width: 100%;
+}
+#footer .footer-lateral {
+
+    text-align: right;
+}
+
+#footer .footer-lateral .footer-ecxcard p {
+    color: #0047BA;
+    font-weight: 600;
+}
+
+#footer .footer-lateral .footer-ecxcard p span {
+    color: #FFB71A;
+}
+#footer .footer-text {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #2D2935;
+}
+#footer .footer-text a:first-child{
+	padding-left: 17px;
+	font-weight: 600;
+}
+#footer .footer-lateral .footer-ecxcard {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#footer .footer-icone-fora, #footer .footer-icone-fora .footer-icone {
+    display: inline-block;
+}
+
+#footer .footer-text label {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: gray;
+    border-radius: 28px;
+    margin: 0 21px;
+}
+#footer .footer-text label:last-child{
+	display: none;
+}
+#footer .footer-text label:first-child{
+	display: inline-block;
+}
+#footer .footer-icone-fora .footer-icone a:nth-child(2) img {
+    margin: 0 10px;
+}
+
+#footer .footer-lateral img {
+    height: 16px;
+}
+
+/* Media Queries
+/---------------------------------------------------------------------------- */
+	@media (max-width: 1439px) {
+
+	}
+
+	/* Extra large devices (large desktops, 1200px and up) 
+	Para todos as telas menores de Desktop */
+	@media (max-width: 1200px) {
+		/* Template Destaque 
+		/--------------------------------------------------------- */
+		#sec-destaque .destaque-img div{
+            top: 50%;
+        }
+        #sec-destaque .destaque-img:hover div{
+            top: 45%;
+        }
+
+        /* Template Beneficio 
+		/--------------------------------------------------------- */
+		#sec-beneficio .beneficio-escolha, #sec-beneficio .beneficio-itens{
+			width: 100%;
+		}
+
+		/* Template Contact 
+		/--------------------------------------------------------- */
+        #sec-contact .contact-box, #sec-contact .contact-escolha span{
+		    margin-top: 100px;
+		}
+        #sec-contact .contact-escolha, #sec-contact .contact-itens{
+            width: 100%;
+        }
+	}
+	
+	@media (max-width: 1024px) {
+		/* Template Destaque 
+		/--------------------------------------------------------- */
+		#sec-destaque .destaque-img{
+            height: 500px;        }
+        #sec-destaque .destaque-img div{
+            top: 45%;
+        }
+        #sec-destaque .destaque-img:hover div{
+            top: 40%;
+        }
+		#sec-destaque .destaque-conteudo a:first-child{
+			margin-right: 20px
+		}
+        #sec-destaque .destaque-conteudo a{
+        	padding: 15px 10px;
+        }
+
+        /* Template Beneficio 
+		/--------------------------------------------------------- */
+		#sec-beneficio .beneficio-escolha span{
+			font-size: 18px;
+    		padding-bottom: 25px;
+		}	
+		#sec-beneficio .beneficio-escolha{
+			margin-bottom: 80px;
+		}	
+
+		/* Template Contact 
+		/--------------------------------------------------------- */
+		#sec-contact .contact-escolha span{
+            font-size: 18px;
+            padding-bottom: 25px;
+        }
+        #sec-contact .contact-form p select, #sec-contact .contact-form p input[type=text], #sec-contact .contact-form p input[type=tel], #sec-contact .contact-form p input[type=email]{
+            padding: 15px 25px;
+        }
+        #sec-contact .contact-escolha{
+            margin-bottom: 40px;
+        }
+        #sec-contact .contact-form .contact-caixa-select{
+            padding: 15px 25px;
+            height: 56px;
+        }
+
+        /* Template Footer 
+		/--------------------------------------------------------- */
+		#footer .footer-logo {
+            width: auto;
+        }
+
+        #footer .footer-text {
+            font-size: 16px;
+        }
+        #footer .footer-lateral .footer-ecxcard {
+            font-size: 16px;
+        }
+	}
+
+	/* Medium devices (tablets, 768px and up) */
+	@media (max-width: 992px) {
+		/* Template Destaque 
+		/--------------------------------------------------------- */
+		#sec-destaque .destaque-img::before{
+            display: none;
+        }
+        #sec-destaque .destaque-img{
+            height: unset;
+        }
+        #sec-destaque{
+            padding-bottom: 48px;
+        }
+        #sec-destaque .destaque-img div{
+            position: relative;
+            width: fit-content;
+            border-radius: 10px;
+            margin: 60px auto 60px auto;
+            text-align: center;
+            top: 0;
+            left: 0;
+        }
+        #sec-destaque .destaque-img:hover div{
+            top: -20px;
+        }
+        #sec-destaque .destaque-img div::after{
+            content: "";
+		    width: 0px;
+		    height: 0px;
+		    border-right: solid 9px #f0f4fa00;
+		    border-left: solid 9px #f0f4fa00;
+		    border-bottom: solid 10px #f0f4fa;
+		    border-top: none;
+		    position: absolute;
+		    bottom: -7px;
+		    left: calc(50% - 9px);
+		    transform: rotate(180deg);
+		    z-index: 1;
+		    box-shadow: 0 5px 16px #0047ba14;
+        }
+        #sec-destaque .destaque-img div h4{
+            display: grid;
+        }
+        #sec-destaque .destaque-img div h4 span{
+            margin: auto;
+            padding-right: 3px;
+    		padding-left: 3px;
+        }
+        #sec-destaque .destaque-conteudo p{
+            padding: 0;
+        }
+
+        /* Template Funcionamento 
+		/--------------------------------------------------------- */
+		#sec-funcionamento .funcionamento-timeline{
+ 			margin: 95px 0;
+ 		}
+ 		#sec-funcionamento .funcionamento-mensagem h2{
+ 			font-size: 65px;
+ 		}
+ 		#sec-funcionamento{
+ 			padding: 110px 0;
+ 		}
+
+ 		/* Template Beneficio 
+		/--------------------------------------------------------- */
+		#sec-beneficio .beneficio-titulo .beneficio-titulo-direito{
+			display: none;
+		}
+		#sec-beneficio .beneficio-titulo{
+			text-align: center;
+		}
+		#sec-beneficio .beneficio-titulo h2 span{
+		    padding-left: 5px;
+		}
+		#sec-beneficio .beneficio-imagem{
+			display: flex;
+			position: relative;
+		}
+		#sec-beneficio .beneficio-imagem img{
+			margin: auto;
+			width: 53%;
+		}
+		#sec-beneficio .beneficio-imagem::before{
+			content: "";
+		    height: 50%;
+		    width: 100%;
+		    position: absolute;
+		    bottom: 0;
+		    left: 0;
+		}
+		#sec-beneficio .beneficio-escolha span{
+			padding-top: 0;
+		}
+
+		/* Template Contact 
+		/--------------------------------------------------------- */
+		#sec-contact{
+            padding: 90px 0;
+        }
+        #sec-contact .contact-box .contact-box-interna{
+            margin-bottom: 65px;
+        }
+        #sec-contact .contact-box, #sec-contact .contact-escolha span{
+		    margin-top: 80px;
+		}
+        /* Template Footer 
+		/--------------------------------------------------------- */
+		#footer{
+    		padding-bottom: 35px;
+    	}
+        #footer .footer-logo {
+            display: block;
+        }
+
+        #footer .footer-text {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            margin-bottom: 58px;
+        }
+
+        #footer .footer-lateral .footer-ecxcard {
+            font-size: 16px;
+        }
+        #footer .footer-text label {
+        	display: none;
+        }
+        #footer .footer-logo {
+            display: flex;
+            margin: auto;           
+            margin-bottom: 56px;
+        }
+
+        #footer .footer-text{
+        	display: block;
+        }
+        #footer .footer-text a{
+        	display: block;
+        	text-align: center;
+        }
+ 		#footer .footer-text a:last-child{
+            display: block;
+            margin: 16px 0 56px 0;
+        }
+        #footer .footer-text a:first-child{
+        	padding: 0;
+        }
+        #footer .footer-icone-fora{
+        	display: flex;
+        }
+        #footer .footer-icone-fora .footer-icone{
+   			margin: 0 auto 30px;
+        }
+        #footer .footer-icone-fora .footer-icone a{
+        	padding: 0;
+        	text-align: center;
+        }
+        #footer .footer-lateral .footer-ecxcard{
+        	text-align: center;
+        	padding: 0;
+        	display: block;
+        }
+        #footer .footer-lateral img {
+	        height: 32px;
+	    }
+	}
+
+	/* Small devices (landscape phones, 576px and up) 
+	Para todos os mobiles */
+	@media (max-width: 768px) {
+		/* Template Header 
+		/--------------------------------------------------------- */
+		#header-cabecalho .header-logo a img {
+	        width: 86px;
+	        height: auto;
+	    }
+	     #header-cabecalho .header-botao {
+	        display: none;
+	    }
+	    #header-cabecalho .header-logo a{
+	    	margin: auto;
+	    }
+
+	    /* Template Destaque 
+		/--------------------------------------------------------- */
+		#sec-destaque .destaque-conteudo div:first-child{
+            text-align: center;
+        }
+        #sec-destaque .destaque-conteudo h1{
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        #sec-destaque .destaque-conteudo a{
+            width: 100%;
+            display: block;
+        }
+        #sec-destaque .destaque-conteudo a:first-child{
+            margin: 32px 0 25px;
+        }
+
+        /* Template Funcionamento 
+		/--------------------------------------------------------- */
+		#sec-funcionamento{
+		 	padding-bottom: 80px;
+ 		}
+
+ 		/* Template Beneficio 
+		/--------------------------------------------------------- */
+		#sec-beneficio .beneficio-itens div{
+			width: fit-content;
+		    margin-right: auto;
+		    margin-left: auto;
+		}
+		#sec-beneficio .beneficio-itens img{
+		    display: block;
+		    margin: auto;
+		    margin: 0 auto 16px;
+		}
+		#sec-beneficio .beneficio-itens span{
+			display: block;
+    		text-align: center;	
+		}
+		#sec-beneficio .beneficio-itens a{
+			width: 100%;
+		}
+		#sec-beneficio .beneficio-itens{
+			margin-bottom: 0;
+		}
+		#sec-beneficio .beneficio-escolha{
+			margin-bottom: 45.5px;
+
+		}
+
+		/* Template Contact 
+		/--------------------------------------------------------- */
+		#sec-contact .contact-escolha span{
+            padding-top: 0;
+        }
+        #sec-contact .contact-box{
+		    margin-top: 60px;
+		}
+		#sec-contact .contact-escolha span{
+			margin-top: 0;
+		}
+	}
+
+	/* Extra small devices (portrait phones, less than 576px) 
+	Ajustes mais finos podem ser feitos aqui
+	#ATENCAO# utilizar em caso de extrema necessidade */
+	@media (max-width: 576px) {
+		/* Template Header 
+		/--------------------------------------------------------- */
+		#header-cabecalho .header-logo a img {
+	        height: 22px;
+	    }
+	    #header-cabecalho{
+			padding: 14px 0;
+		}	
+
+		/* Template Destaque 
+		/--------------------------------------------------------- */
+		#sec-destaque .destaque-conteudo h1{
+            font-size: 30px;
+        }
+        #sec-destaque .destaque-conteudo p, #sec-destaque .destaque-conteudo a{
+            font-size: 16px;
+        }
+
+        /* Template Beneficio 
+		/--------------------------------------------------------- */
+		#sec-beneficio .beneficio-titulo h2 span{
+			border-bottom: 11px solid #FFB71A;
+		    line-height: 5px;
+		    padding-left: 3px;
+		}
+
+        /* Template Funcionamento 
+		/--------------------------------------------------------- */
+		#sec-funcionamento .funcionamento-conteudo h3{
+ 			font-size: 28px;
+ 			line-height: 30px;
+ 		}
+ 		#sec-funcionamento .funcionamento-conteudo p{
+ 			font-size: 15px;
+ 		}
+ 		#sec-funcionamento .funcionamento-mensagem h2{
+ 			font-size: 45px;
+ 			line-height:  42px;
+ 		}
+ 		#sec-funcionamento .funcionamento-mensagem{
+ 			min-height: unset;
+		    background-size: cover;
+		    padding: 40px 0;
+ 		}
+ 		#sec-funcionamento .funcionamento-timeline{
+			margin-bottom: 0;
+ 		}
+ 		#sec-funcionamento .funcionamento-arrastar{
+ 			display: block;
+ 			margin: 40px 0 80px;
+		    text-align: center;
+		    color: rgb(255 255 255 / 30%);
+ 		}
+ 		#sec-funcionamento{
+			padding: 40px 0;
+ 		}
+
+ 		/* Template Beneficio 
+		/--------------------------------------------------------- */
+		#sec-beneficio{
+		    margin: 40px 0;
+		}
+		#sec-beneficio h2{
+			font-size: 36px;
+		}
+
+		/* Template Contact 
+		/--------------------------------------------------------- */
+		#sec-contact{
+            padding: 60px 0;
+        }
+        #sec-contact .contact-titulo h2{
+            line-height: 35px;
+        }
+        #sec-contact .contact-titulo h2 span::before{
+            display: none;
+        }
+        #sec-contact .contact-titulo h2 span{
+            position: unset;
+            line-height: 0px;
+            display: inline-block;
+            border-radius: 0.30000001192092896px;
+            border-bottom: 17px solid #FFB71A;
+        }
+	}
+	/* Max 425px and up) */
+	@media (max-width: 425px) {
+		/* Template Destaque 
+		/--------------------------------------------------------- */
+		 #sec-destaque .destaque-img div h4{
+            font-size: 12px;
+            line-height: 13px;
+        }
+        #sec-destaque .destaque-img div h4 span{
+            border-bottom: 4px solid #FFB71A;
+            line-height: 3px;
+        }
+
+        /* Template Funcionamento 
+		/--------------------------------------------------------- */
+		#sec-funcionamento .funcionamento-conteudo h3{
+			font-size: 24px;
+		}
+		#sec-funcionamento .funcionamento-conteudo p{
+			font-size: 13px;
+		}
+		#sec-funcionamento .funcionamento-mensagem{
+			padding: 40px;
+    		background-size: contain;
+		}
+		#sec-funcionamento .funcionamento-mensagem h2{
+			font-size: 32px;
+		}
+		#sec-funcionamento .funcionamento-timeline{
+			margin-bottom: 0;
+		}
+
+		/* Template Contact 
+		/--------------------------------------------------------- */
+        #sec-contact .contact-box{
+		    margin-top: 40px;
+		}
+        #sec-contact .contact-titulo h2{
+            font-size: 24px;
+            line-height: 32px;
+            padding-top: 10px;
+        }
+        #sec-contact .contact-titulo h2 span{
+        	border-bottom: 11px solid #FFB71A;
+    		padding-left: 4px;
+        }
+        #sec-contact .contact-box .contact-box-interna div{
+            padding: 16px 24px;
+        }
+        #sec-contact .contact-box .contact-box-interna div img{
+            margin-bottom: 8px;
+        }
+        #sec-contact .contact-box .contact-box-interna div h4{
+            font-size: 15px;
+            line-height: 17px;
+        }
+        #sec-contact .contact-box .contact-box-interna div span{
+            font-size: 15px;
+            line-height: 17px;
+        }
+        #sec-contact .contact-escolha span{
+            font-size: 16px;
+            padding-bottom: 18px;
+        }
+        #sec-contact .contact-form p label{
+            font-size: 13px;
+        }
+        #sec-contact .contact-form p select, #sec-contact .contact-form p input[type=text], #sec-contact .contact-form p input[type=tel], #sec-contact .contact-form p input[type=email]{
+            padding: 12px 16px;
+        }
+        #sec-contact .contact-form p input[type=text]::placeholder, #sec-contact .contact-form p input[type=tel]::placeholder, #sec-contact .contact-form p input[type=email]::placeholder{
+		    font-size: 13px;
+		}
+        #sec-contact .contact-form p input[type=submit]{
+            margin-top: 35px;
+        }
+        #sec-contact .contact-escolha, #sec-contact .contact-itens{
+            padding: 0 5px;
+        }
+        #sec-contact .contact-box .contact-box-interna{
+            margin: 0 0 65px 0;
+            max-width: unset;
+            width: 100%;
+        }
+        #sec-contact .contact-form .contact-caixa-select.selectNotNull p{
+            font-size: 16px;
+        }
+        #sec-contact .contact-form .contact-caixa-select p{
+            font-size: 13px;
+        }
+
+        /* Template Footer 
+		/--------------------------------------------------------- */
+		#footer .footer-logo {
+            width: 95px;
+        }	
+	}
+	/* Max 375px and up) */
+	@media (max-width: 375px) {
+		/* Template Beneficio 
+		/--------------------------------------------------------- */
+		#sec-beneficio .beneficio-titulo{
+			margin-bottom: 20px;
+		}
+		#sec-beneficio h2{
+			font-size: 30px;
+		}
+		#sec-beneficio .beneficio-titulo h2 span{
+		    line-height: 0px;
+		}
+		#sec-beneficio .beneficio-escolha span{
+			padding-bottom: 10px;
+		}
+		#sec-beneficio .beneficio-itens span{
+			font-size: 16px;
+		}
+
+		/* Template Funcionamento 
+		/--------------------------------------------------------- */
+		#sec-funcionamento{
+			padding-bottom: 0;
+		}
+		#sec-funcionamento .funcionamento-mensagem{
+			background-size: 120%;
+    		background-position: top center;
+		}
+		#sec-funcionamento .funcionamento-mensagem h2{
+			margin-top: -14px;
+		}
+
+		/* Template Contact 
+		/--------------------------------------------------------- */
+		#sec-contact .contact-escolha span{
+            padding-bottom: 10px;
+        }
+        #sec-contact .contact-box .contact-box-interna div h4{
+            font-size: 13px;
+            margin: 0;
+        }
+        #sec-contact .contact-box .contact-box-interna div span{
+            font-size: 13px;
+        }
+        #sec-contact .contact-form{
+            padding: 0 15px;
+        }
+        #sec-contact{
+            padding: 40px 0;
+        }
+
+        /* Template Footer 
+		/--------------------------------------------------------- */
+		 #footer{
+        	padding: 25px 0 42px;
+        }
+        #footer .footer-logo {
+            width: 80px;	
+        }
+	}
+
+	/* Max 320px and up) */
+	@media (max-width: 320px) {
+		/* Template Beneficio 
+		/--------------------------------------------------------- */
+		#sec-beneficio h2{
+			font-size: 24px;
+		}
+
+	}

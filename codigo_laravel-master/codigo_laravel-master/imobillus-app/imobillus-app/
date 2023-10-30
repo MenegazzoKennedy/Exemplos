@@ -1,0 +1,282 @@
+[33mcommit 8a0d8d99d186db3851403e26a24f0dd6fb905608[m[33m ([m[1;36mHEAD -> [m[1;32mdeveloper[m[33m)[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Wed Jun 16 18:37:24 2021 -0400
+
+    alteracoes
+
+[33mcommit 5fa86053d083667047a79efb3155e6a67e833af6[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Thu Jun 17 02:35:14 2021 -0400
+
+    update de cadastro
+
+[33mcommit 954896868e387c44e817d92cfae11d83e0c1ad80[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Thu Jun 17 02:07:49 2021 -0400
+
+    implementacao do dialog no cadastro, remocao do /selecionar-consultor
+
+[33mcommit 08f8727752157d2e0af0f8bdb369a095f9cf6444[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Wed Jun 16 17:31:54 2021 -0400
+
+    correcoes no cadastro
+
+[33mcommit 8499164ba4807e3aee6cd6d43e818651bc86d0a8[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Wed Jun 16 12:51:53 2021 -0400
+
+    correçoes na amostra dos valores e ajuste de rotas
+
+[33mcommit e0fea81302db09f8e27e5db7b9788df8806e5920[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Tue Jun 15 08:33:21 2021 -0400
+
+    implementação da formatação de valores
+
+[33mcommit 40a9158bfee240ff5f5ca5601008b0f3f267e931[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Fri Jun 11 15:08:52 2021 -0400
+
+    last commit
+
+[33mcommit eb1ab9e6eadd9c995f146eed8881c7cdd65fd8f6[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Fri Jun 11 12:23:06 2021 -0400
+
+    commit final
+
+[33mcommit c7e8cd4c076be0a4512dbd26304ff4619d37bb9f[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Thu Jun 10 17:27:19 2021 -0400
+
+    att
+
+[33mcommit 72c1a6a59340ed04dc247294d448429d50edb1d5[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Thu Jun 10 16:49:18 2021 -0400
+
+    correcao de erro da font buda
+
+[33mcommit 3612d5cf22a487b3ca3cba02890fc7806404bb10[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Thu Jun 10 14:31:03 2021 -0400
+
+    commit de att na dialog unidade
+
+[33mcommit 0743468762f895376a178691a6baebe618ca8109[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Thu Jun 10 09:56:27 2021 -0400
+
+    adicionado mudanças para mandar a mensagem da nova unidade
+
+[33mcommit bea43d6928fc26b0d9f26f5efb5a3c7361d820e2[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Wed Jun 9 16:34:10 2021 -0400
+
+    mudancas na iniciar-negociacao rota com this.slug
+
+[33mcommit 8d549ffba93eebc3bae6d9922879cdd1039e2a05[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Wed Jun 9 16:22:16 2021 -0400
+
+    commit modal da unidade
+
+[33mcommit f4b22cafa4d1331532e4b40a17ff9e54f4df00ac[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Wed Jun 9 11:39:54 2021 -0400
+
+    commit de alteracoes
+
+[33mcommit 416c278c3968ba7d43a372a3dadf3cf0d27b164a[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Wed Jun 9 08:30:48 2021 -0400
+
+    inserido o loader no botao de Agendar
+
+[33mcommit cde5f694ad8406e1aecbc83b3c871f9ac44aab9c[m
+Merge: 2334213 4bae581
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Wed Jun 9 08:24:23 2021 -0400
+
+    Merge branch 'developer' of https://bitbucket.org/time-rodolfo/imobillus-app into developer
+
+[33mcommit 2334213fa8e2312988a47a107e22a61d372b77c1[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Wed Jun 9 08:15:48 2021 -0400
+
+    mudanças do agendar e single-imovel
+
+[33mcommit 4bae58149ea31c96fc9470689acce11debd38008[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Tue Jun 8 23:11:47 2021 -0400
+
+    commit
+
+[33mcommit f74822b18d5c41cfc7626845519ac0cbcb657eca[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Tue Jun 8 15:57:10 2021 -0400
+
+    commit de atualizacoes
+
+[33mcommit 89a3e23b56987ad5fa3a6d4dd37d7860d6b911b5[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Tue Jun 8 09:45:31 2021 -0400
+
+    corrigido busca por corretores
+
+[33mcommit 838af61140e56b7e4d774db057b4e3c0a751610b[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Tue Jun 8 09:14:55 2021 -0400
+
+    detalhes do imovel inserido na pagina iniciar negociaçao
+
+[33mcommit c90d9b1fe4197e816a37f69d5a3db7711d9ed10d[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Mon Jun 7 16:57:44 2021 -0400
+
+    ajustando posicoes do menu
+
+[33mcommit 68b0e9300c45761a079e6c656da5d4009a9b2199[m
+Author: Victor Hugo <victorh5900@gmail.com>
+Date:   Mon Jun 7 16:49:04 2021 -0400
+
+    adicionado no menu a opcao Imoveis e retirado Contato
+
+[33mcommit f1c956ddde888b5859532143215828133156e0a8[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Wed May 5 11:46:05 2021 -0300
+
+    Commit de Ajsute
+
+[33mcommit ae3b7464eb9b3d380cc39ed346a22b86820da119[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Wed May 5 10:41:42 2021 -0300
+
+    Commit 05/05
+
+[33mcommit 63cea6373a817f6d7e1c38619561360a05e0f9f4[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Tue May 4 18:35:24 2021 -0300
+
+    Commit 04/05
+
+[33mcommit fa519cde394079e64807c8a7541981a58f5b717e[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Mon May 3 17:36:36 2021 -0300
+
+    Simular Financiamento
+
+[33mcommit e0bc47250ff4c773db677023f40c64e465d9215b[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Fri Apr 30 18:04:02 2021 -0300
+
+    Commit 30/04
+
+[33mcommit 6ca835757d16cce315fa91b5e25866aec1ce2f26[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Thu Apr 29 19:06:46 2021 -0300
+
+    Commit 29/04
+
+[33mcommit 742024d96b5d5b1263b2776550f22fbdf2399941[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Wed Apr 28 18:49:21 2021 -0300
+
+    Arquive e Single
+
+[33mcommit 08d8cc09c9eeda9ae5dac32844717eec687a24d8[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Wed Apr 28 15:50:01 2021 -0300
+
+    Test
+
+[33mcommit 8cd60509a03d6d8c75b120bc719463bf06505e25[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Tue Apr 27 18:48:07 2021 -0300
+
+    Mobile e Metodos
+
+[33mcommit 0535ba12fecd42bab619d35b7edacfebb5b2f801[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Tue Apr 27 11:34:14 2021 -0300
+
+    Ajustes
+
+[33mcommit cc07eb6949ac9593f71202a0ac024b9e0cecb29c[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Mon Apr 26 18:59:43 2021 -0300
+
+    Tela e Implementação
+
+[33mcommit 86aef2e782e1fe4e55af681b1b7f0a1e7d134aa7[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Fri Apr 23 19:01:44 2021 -0300
+
+    Simulação Financiamento
+
+[33mcommit 16b1b911ab9bc25b64896a7db1e448a6eccf5a6b[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Thu Apr 22 18:26:52 2021 -0300
+
+    Single Imovel
+
+[33mcommit b4a557fc80e628a3157729d4e6ef38c769e6b45e[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Tue Apr 20 18:01:32 2021 -0300
+
+    Archive Imovel, justes, Page Dev
+
+[33mcommit fa38046a2e4692d3b47a90aacf404b3e62a1c91f[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Mon Apr 19 18:10:38 2021 -0300
+
+    Login, Cadastro e Ajustes
+
+[33mcommit e144e387ca3839921422c7027f0b3a92849ba149[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Fri Apr 16 18:21:14 2021 -0300
+
+    Lista de Imoveis com slider
+
+[33mcommit f46dc3cad854d9e7fe55ab2ee0d552064fd8db6d[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Thu Apr 15 18:07:53 2021 -0300
+
+    Tela Consultor e Imovel
+
+[33mcommit 19b44584d0727e3171662b55cb6548183915d2c6[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Wed Apr 14 17:45:47 2021 -0300
+
+    Tela Cadastro
+
+[33mcommit 9b74a339fe86084f214a94fb637f4b125384152d[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Tue Apr 13 18:05:09 2021 -0300
+
+    Header e Footer Ajuste, Home e menu
+
+[33mcommit 246fcad6ed136d1316bafaaa728eb5cf5e126f68[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Mon Apr 12 18:01:29 2021 -0300
+
+    Header e Footer Desk
+
+[33mcommit aa76989caf01f107509e53d4ff5a17e29e1ea904[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Fri Apr 9 18:29:39 2021 -0300
+
+    Header e Ajustes
+
+[33mcommit 03e8f18fa40e4aa0bf7e30e3483ae852df917c4b[m
+Author: Marcos <marcos@maiscode.com.br>
+Date:   Fri Apr 9 16:40:21 2021 -0300
+
+    New Imobillus
+
+[33mcommit eeddc9b633967c8dafaa6d59c23a4a39d6b65d4c[m
+Author: Mais Code Tecnologia <suporte@maiscode.com.br>
+Date:   Thu Apr 8 13:47:09 2021 +0000
+
+    Initial commit

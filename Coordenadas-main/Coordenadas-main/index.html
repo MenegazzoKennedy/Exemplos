@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Teste</title>
+</head>
+<style type="text/css">
+	body{
+		margin-top: 100px;
+	}
+	body > p{
+		height: 100px;
+	}
+	div.fundo-coordenadas{
+		width: 500px;
+		height: 500px;
+		display: flex;
+		background: red;
+		position: relative;
+		margin-top: 50px;
+	}
+	.fundo-coordenadas  .ponto{
+		width: 20px;
+		height: 20px;
+		display: block;
+		background-color: blue;
+		display: block;
+		position: absolute;
+		border-radius: 50%;
+		z-index: 2;
+	}
+	.fundo-coordenadas  .ponto.vazio{
+		opacity: 0;
+	}
+	.fundo-coordenadas  .linha {
+		position: absolute;
+		border-bottom: 2px solid black;
+		transform-origin: 0 0;
+    }
+	.fundo-coordenadas  .ponto > span{
+		color: #000;
+		text-decoration: none;
+		position: absolute;
+		bottom: 100%;
+	}
+	.data-pontos{
+		top: 0;
+		left: 0;
+		position: absolute;
+		display: flex;
+		background: #0000008f;
+		margin: auto;
+		z-index: 99999;
+		color: #fff;
+		width: 100%;
+    	height: 100%;
+	}
+	.data-pontos > div{
+		background: #0000008f;
+		max-width: 300px;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
+		border-radius: 10px;
+	}
+</style>
+<body>
+	<p></p>
+	<div>
+		<div class="fundo-coordenadas">
+		</div>
+	</div>
+</body>
+<script src="./jqueryMC.js"></script>
+<script src="./coordenadas.js"></script>
+<script>
+	gerarCoordenadas({ "elemento" : ".fundo-coordenadas", "multiplo" : true, "carga" : null, "modificar" : true });
+</script>
+</html>

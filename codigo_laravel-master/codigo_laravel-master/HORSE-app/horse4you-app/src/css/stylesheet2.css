@@ -1,0 +1,33 @@
+@media(min-width: 768px){
+  #myHeader .header-container .brandHeader {
+    width: 7% !important;
+  }
+}
+@media(max-width: 425px){
+  #chat .goBack .v-icon {
+    margin-top: 7px;
+  }
+}
+@media(max-width: 375px) {
+  #chat .goBack .v-icon {
+    margin-top: 4px;
+  }
+  #secChat .chat-history {
+    height: calc(100vh - 260px);
+  }
+}
+@media(max-width: 320px) {
+  #search .col {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  #chat .goBack .v-icon {
+    margin-top: 0;
+  }
+  #secChat .chat-history {
+    height: calc(100vh - 250px);
+  }
+  #blockList .goBack .v-icon {
+    margin-top: 0px;
+  }
+}

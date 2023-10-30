@@ -1,0 +1,14 @@
+/*Wp Login Form*/
+	
+	body{background: url(../img/symphony.png) ;}
+	body.login div#login h1 {background: url(../img/logoOriginal.png) no-repeat top center; background-size: cover}
+	body.login div#login h1 a{background: none; width: 100%}
+	body.login { background: url(../img/fotoFundo.png); }
+          
+	 
+ 
+
+/* Styling for the footer */
+	#wpfooter #footer-left img {vertical-align: middle;}
+	#wpfooter #footer-left a{color:#666}
+	

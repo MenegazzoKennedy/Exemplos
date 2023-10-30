@@ -1,0 +1,31 @@
+NOTO EBNF
+<char> = {a..z}*
+-------------------------------
+Tajpaj Deklaroj
+<char> := a..z
+<var> := <char>0..9
+<tipo> := d | f | s | w
+<op.arit> := + | - | * | /
+<nombro> := 0..9
+<varnum> := <var> | <num>
+entjero <var>;
+int <var>;
+legi <var>;
+<var> = <varnum> <op.arit> <varnum>;
+print <var>;
+por <var> de <num> ĝis <num> tiam
+finhalto
+se <var> <op.rel> <num> tiam
+fini se
+---------------
+entjero x;
+int y;
+entjero i;
+scanf("%d", &x):
+y = x * 2;
+por (i=0;i<y;i++){
+    se (i>10){
+      printf("%d pasis 10", i);
+    }
+}
+reveni 0;

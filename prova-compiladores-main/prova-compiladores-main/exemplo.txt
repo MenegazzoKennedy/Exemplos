@@ -1,0 +1,18 @@
+entjero x;
+int y;
+entjero i;
+entjero a;
+legi x;
+y = x * 2;
+por i de 1 gis 10 tranĉilo
+    se y > 10 tiam
+      print "pasis 10";
+    fini se
+finhalto
+se a > 5 tiam
+    presi al;
+fini se
+se a = 3 tiam
+    presi al;
+fini se
+reveni 0;

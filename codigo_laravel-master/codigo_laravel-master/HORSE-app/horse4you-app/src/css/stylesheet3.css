@@ -1,0 +1,1708 @@
+.theme--light.v-application {
+  background: #353431 !important;
+  color: rgba(0, 0, 0, 0.87);
+}
+.pattern_dark{
+  background-color: #353431;
+  height: 100%;
+}
+.pattern_dark h1{
+  text-align: center;
+}
+.pattern_dark h5{
+  text-align: center;
+}
+/*mesmo css de paginas distintas*/
+#secLoginDate h1, #secLogin h1, #secRegister h1, #categoryHeader h1{
+  margin-bottom: 8px;
+}
+#secLoginDate .v-text-field, #secRecoverPassword .v-text-field {
+  padding-top: initial;
+  margin-top: initial;
+}
+#secLogin h5, #secRegister h5, #secRegister .buttonForm .buttonGray, #categoryHeader h5, #secLoginEmail h5{
+  margin-bottom: initial;
+}
+#secRegister .v-messages__message, #secViewProfile .boxTimeline .actionsBox .shareBtn, #secLoginEmail .v-messages__message{
+  position: absolute;
+  right: 0;
+}
+#secRegister .buttonForm, #secMessagePasswordChanged .buttonForm{
+  margin-bottom: 22px;
+}
+#optionsCategory .checkBox input.chk-btn, #secEditProfile #postImage, #newpost .menuPost #postImage, #newpost .menuPost #postVideo, #newpost .selectCategories .tagsSelect .v-text-field__details, #newpost .selectCategories .tagsSelect .v-text-field__details .v-messages, #newpost .menuPost .v-text-field__details, .theme--light.v-text-field>.v-input__control>.v-input__slot:before, .v-text-field>.v-input__control>.v-input__slot:after{
+  display: none;
+}
+#secProfile .logoutConfig a, #secViewProfile .formatTop a,
+#secProfile .formatTop a{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3D5A80;
+}
+/* secLoginDate*/
+/* está padrão com tela recoverPassword buttonForm .v-text-field */
+#secLoginDate .buttonForm{
+  margin-top: 22px;
+}
+#secLoginDate input{
+  border: 2px solid #E5E2DC;
+  box-sizing: border-box;
+  border-radius: 8px;
+  max-height: 100px;
+  text-transform:uppercase;
+  padding: 9px;
+}
+.v-date-picker-table .v-btn{
+  font-size: 20px!important;
+}
+.v-picker,
+.v-date-picker-years{
+  font-size: 22px!important;
+}
+/*secLogin*/
+#secLogin .v-btn {
+  margin-bottom: 12px;
+  width: 100%;
+  border-radius: 10px;
+}
+#secLogin .buttonForm {
+  padding-top: 39px;
+  padding-bottom: 38px;
+  margin-top: initial;
+}
+.buttonRegister{
+  margin-top: 12px;
+}
+#secLogin .linkRecoverPassword span{
+  font-size: 14px;
+}
+.v-btn__content {
+  text-transform: initial;
+}
+/*secRecoverPassword*/
+/* está padrão com tela Logindate buttonForm .v-text-field*/
+#secRecoverPassword .buttonForm{
+  margin-top: 24px;
+}
+#secRecoverPassword input{
+  box-sizing: border-box;
+  border-radius: 8px;
+  max-height: 100px;
+}
+#secRecoverPassword  label {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
+  color: #E5E2DC;
+}
+
+/*secRegister*/
+#secRegister img {
+  width: 23%;
+}
+#secRegister label {
+  font-weight: 500;
+  line-height: 17px;
+  margin-bottom: 5px;
+}
+#secRegister .v-text-field__details {
+  margin-bottom: -8px !important;
+  padding-left: 12px;
+}
+#secRegister .inputConfig{
+  padding-top: 20px;
+  padding-bottom: initial;
+}
+#secRegister .inputConfig .placeHolder input::placeholder {
+  font-family: 'Work Sans';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #E5E2DC;
+}
+#secRegister .inputConfig .confirmPass {
+  color: #7E7A77;
+}
+#secRegister .theme--light.v-icon{
+  color: #E5E2DC;
+  opacity: 0.5;
+  bottom: 30%;
+  width: 16px;
+  height: 10px;
+}
+#secRegister .theme--light.v-select .v-select__selection--comma {
+  color: #E5E2DC;
+}
+#secRegister .inputConfig .v-input .v-input__slot .v-input__append-inner {
+  margin-top: 14px;
+}
+/*secCategory*/
+/*secButtonCategory*/
+#buttonsCategory .buttonForm .buttonGray {
+  margin-bottom: inherit;
+}
+/*secCategoryHeader*/
+#categoryHeader img {
+  width: 23%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*optionsCategory*/
+#optionsCategory .checkBox span span {
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 15px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F7B2A1;
+  border-radius: 8px;
+  margin-right: 12px;
+  margin-bottom: 16px;
+  line-height: normal;
+  color: #f4f7f8;
+  background-color: #F7B2A1;
+}
+#optionsCategory .checkBox input.chk-btn:checked+span {
+  color: #fff;
+  background-color: #EE6C4D;
+  border: 1px solid #EE6C4D;
+}
+#optionsCategory .checkBox{
+  padding-left: 13px;
+}
+/* secThankYou */
+#secThankYou .brand, #secThankYou h5{
+  margin-bottom: 32px;
+}
+#secThankYou h1{
+  margin-bottom: 35px;
+}
+#secThankYou .thankYou{
+  margin-bottom: 40px;
+}
+/*secMessagePasswordChanged*/
+#secMessagePasswordChanged .infoConfig{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+/*secNewPassword*/
+#secNewPassword .inputConfig{
+  margin-bottom: 24px;
+}
+#secNewPassword .v-icon.v-icon.v-icon--link {
+  bottom: 10px;
+}
+#secNewPassword .theme--light.v-icon {
+  color: #64625f;
+}
+#secNewPassword .theme--light.v-icon {
+  color: #E5E2DC;
+  opacity: 0.5;
+  bottom: 0% !important;
+  width: 16px;
+  height: 10px;
+}
+/*secEditProfile*/
+#secEditProfile {
+  margin: 20px 10px 70px 10px;
+}
+#secEditProfile .v-btn__content {
+  text-transform: initial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px !important;
+  line-height: 21px;
+  color: #3D5A80 !important;
+}
+#secEditProfile .v-btn--contained{
+  box-shadow: 0px 3px 1px -2px 
+              rgb(255 255 255 / 50%), 0px 2px 2px 0px 
+              rgb(255 255 255 / 50%), 0px 1px 5px 0px 
+              rgb(255 255 255 / 50%) !important;
+}
+#secEditProfile .theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+  background-color: rgb(255 255 255 / 50%);
+}
+#secEditProfile .v-btn:not(.v-btn--round).v-size--default {
+  height: 48px;
+  padding: inherit;
+}
+.formatTop{
+  justify-content: space-between;
+  display: flex;
+}
+#secEditProfile a{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px !important;
+  line-height: 21px;
+  color: #3D5A80 !important;
+}
+ #secEditProfile .linkFormat {
+  align-items: left;
+  text-align: left;
+}
+#secEditProfile .editprofile{
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: inherit;
+  padding-top: inherit;
+} 
+#secEditProfile .ImageUser{
+  margin-bottom: 16px;
+}
+#secEditProfile .editprofile h2{
+  color: #3D5A80; 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+#secEditProfile .formatInput{
+  text-align: left;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+#secEditProfile .formatInput .tagsUser .v-input__slot .v-select__selections span {
+  margin: 5px;
+}
+#secEditProfile .formatInput h3{
+  color: #5A7FAF;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+#secEditProfile .theme--light.v-icon {
+  color: #3D5A80;
+  font-size: 24px;
+}
+#secEditProfile input {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
+  color: #7E7A77 !important;
+}
+/*secProfile*/
+#secProfile {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;   
+  flex-direction: column;
+  margin: 19px 10px 50px 10px;
+}
+#secProfile .logoutConfig{
+  display: flex;
+}
+#secProfile .profile{
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  padding-top: inherit;
+}
+#postTimeLine .boxTimeline .followTags, #secProfile .container .boxTimeline .followTags, #secViewProfile .container .boxTimeline .followTags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-left: 20px;
+  padding-bottom: 0;
+}
+#secProfile .profile .followTags, #secViewProfile .profile .followTags {
+  display: flex;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#postTimeLine .boxTimeline .followTags span, #secProfile .container .boxTimeline .followTags span, #secViewProfile .container .boxTimeline .followTags span {
+  color: #EE6C4D;
+}
+#secProfile .profile .followTags .v-card__text, #secViewProfile .profile .followTags .v-card__text {
+  padding: 0px 10px 0px 10px;
+  color: #EE6C4D;
+}
+#secProfile .profile h2{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+#secProfile .postUser h2{
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3D5A80;
+  text-align: left;
+}
+#secProfile .profile h3{
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+#secProfile .v-card__text{
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  padding-top: inherit;
+}
+#secProfile .buttonForm span{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 16px;
+  align-self: center;
+  text-transform: none;
+  color: #E5E2DC;
+  font-style: normal;
+  font-weight: 500;
+}
+#secProfile .buttonForm {
+  margin-top: inherit;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center !important;
+}
+#secProfile .boxTimeline .boxHeader {
+    display: flex;
+    margin: 10px 0px;
+    position: relative;
+}
+#secProfile .boxTimeline .boxHeader a {
+    display: flex;
+    margin: 0px;
+    position: relative;
+}
+#secProfile .boxTimeline .boxHeader h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    padding: 0 8px;
+}
+#secProfile .boxTimeline .postSingle {
+    font-family: 'Work Sans', sans-serif;
+    text-align: unset;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    margin: 0px;
+}
+#secProfile .boxTimeline .postSingle p {
+    padding: 0px 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-align: start;
+    word-break: break-all;
+}
+#secProfile .boxTimeline .boxHeader .rightIcon  {
+    position: absolute;
+    right: 0;
+    color: #fff;
+}
+#secProfile .boxTimeline .boxHeader .rightIcon span {
+    color: #EE6C4D;
+}
+
+#secProfile .boxTimeline .actionsBox {
+    display: flex;
+    position: relative;
+    margin: 0 10px;
+}
+#secProfile .boxTimeline .diviserBorder {
+    border-bottom: 1px solid rgba(37, 36, 34, 0.2);
+    margin: 15px 20px;
+}
+#secProfile .boxTimeline .actionsBox .v-icon {
+    color: #EE6C4D;
+}
+#secProfile .boxTimeline .actionsBox .leftBtn {
+    padding: 0 4px;
+    display: flex;
+    width: fit-content;
+}
+#secProfile .boxTimeline .actionsBox .leftBtn p {
+    padding: 5px 5px;
+    margin: 0;
+    display: flex;
+    align-content: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+#secProfile .boxTimeline .actionsBox a {
+    margin: 0;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+#secProfile .boxTimeline .actionsBox .shareBtn {
+    position: absolute;
+    right: 0;
+}
+
+
+#secProfile .boxTimeline .lb-modal-img {
+  left: 0;
+  right: 0;
+}
+
+#secProfile .boxTimeline .lb-modal-next {
+  right: 0px;
+}
+#secProfile .boxTimeline .lb-modal-prev {
+  left: 0;
+}
+#secProfile .boxTimeline .lb-modal-close {
+  border: none;
+}
+#secProfile .boxTimeline .btn-outline-primary:not(:disabled):not(.disabled):active, 
+#secProfile .boxTimeline .btn-outline-primary:not(:disabled):not(.disabled).active, 
+#secProfile .boxTimeline .show>.btn-outline-primary.dropdown-toggle,
+#secProfile .boxTimeline .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #EE6C4D !important;
+  border-color: #EE6C4D !important;
+}
+#secProfile .boxTimeline .lb-more {
+  font-size: 25px;
+  font-weight: 200;
+}
+/*secViewProfile*/
+#secViewProfile {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;   
+  flex-direction: column;
+}
+#secViewProfile .theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+  background: #3D5A80;
+  border-radius: 5px;
+  padding: 10px 12px;
+  color: #ffffff;
+}
+#secViewProfile img{
+  width: 100%;
+}
+#secViewProfile .dotsViewUser a,
+#secProfile .dotsViewUser a{
+  margin-top: 6px !important;
+}
+#secViewProfile .postdUser h2{
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3D5A80;
+  text-align: left;
+}
+#secViewProfile .profile{
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  padding-top: inherit;
+}
+#secViewProfile .profile .loaderPost .v-progress-circular, #secProfile .profile .loaderPost .v-progress-circular, #postTimeLine .loaderPost .v-progress-circular, #search .loaderPost .v-progress-circular {
+  --display: block;
+  display: var(--display);
+}
+#secViewProfile .buttonForm {
+  margin-top: inherit;
+  margin-bottom: 10px;
+  margin-left: 22px;
+  margin-right: 22px;
+  display: flex;
+  justify-content: right;
+}
+#secViewProfile .profile h2{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+#secViewProfile .postUser h2{
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3D5A80;
+  text-align: left;
+}
+#secViewProfile .profile h3{
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+#secViewProfile .v-card__text{
+  padding: 19px 10px 10px 10px;
+}
+#secViewProfile .v-card__text{
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  padding-top: inherit;
+}
+#secViewProfile .buttonForm span{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 16px;
+  align-self: center;
+  text-transform: none;
+  color: #E5E2DC;
+  font-style: normal;
+  font-weight: 500;
+}
+#secViewProfile .dotsViewUser .ImageUser, #secProfile .dotsViewUser .ImageUser {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+#secViewProfile .dotsViewUser .v-btn--outlined .v-btn__content .v-icon,
+#secViewProfile .dotsViewUser .v-btn--round .v-btn__content .v-icon,
+#secProfile .dotsViewUser .v-btn--outlined .v-btn__content .v-icon,
+#secProfile .dotsViewUser .v-btn--round .v-btn__content .v-icon{
+  color: #EE6C4D;
+  font-size: 40px;
+  height: inherit;
+  top: 4px;
+}
+#secViewProfile .theme--light.v-btn.v-btn--icon {
+  color: rgb(255 255 255 / 12%);
+}
+
+#secViewProfile {
+  margin-bottom: 50px;
+}
+#secViewProfile .boxTimeline .boxHeader {
+  display: flex;
+  margin: 10px 0px;
+  position: relative;
+}
+#secViewProfile .boxTimeline .boxHeader a {
+  display: flex;
+  margin: 0px;
+  position: relative;
+}
+#secViewProfile .boxTimeline .boxHeader h2 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  padding: 0 8px;
+}
+#secViewProfile .boxTimeline .postSingle {
+  font-family: 'Work Sans', sans-serif;
+  text-align: unset;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  margin: 0px;
+}
+#secViewProfile .boxTimeline .postSingle p {
+  padding: 0px 20px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  text-align: start;
+  word-break: break-all;  
+}
+#secViewProfile .boxTimeline .boxHeader .rightIcon  {
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+#secViewProfile .boxTimeline .boxHeader .rightIcon span {
+  color: #EE6C4D;
+}
+
+#secViewProfile .boxTimeline .actionsBox {
+  display: flex;
+  position: relative;
+  margin: 0 10px;
+}
+#secViewProfile .boxTimeline .diviserBorder {
+  border-bottom: 1px solid rgba(37, 36, 34, 0.2);
+  margin: 15px 20px;
+}
+#secViewProfile .boxTimeline .actionsBox .v-icon {
+  color: #EE6C4D;
+}
+#secViewProfile .boxTimeline .actionsBox .leftBtn {
+  padding: 0 4px;
+  display: flex;
+  width: fit-content;
+}
+#secViewProfile .boxTimeline .actionsBox .leftBtn p {
+  padding: 5px 5px;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+#secViewProfile .boxTimeline .actionsBox a {
+  margin: 0;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+#secViewProfile .boxTimeline .lb-modal-img {
+  left: 0;
+  right: 0;
+}
+#secViewProfile .boxTimeline .lb-modal-next {
+  right: 0px;
+}
+#secViewProfile .boxTimeline .lb-modal-prev {
+  left: 0;
+}
+#secViewProfile .boxTimeline .lb-modal-close {
+  border: none;
+}
+#secViewProfile .boxTimeline .btn-outline-primary:not(:disabled):not(.disabled):active, 
+#secViewProfile .boxTimeline .btn-outline-primary:not(:disabled):not(.disabled).active, 
+#secViewProfile .boxTimeline .show>.btn-outline-primary.dropdown-toggle,
+#secViewProfile .boxTimeline .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #EE6C4D !important;
+  border-color: #EE6C4D !important;
+}
+#secViewProfile .boxTimeline .lb-more {
+  font-size: 25px;
+  font-weight: 200;
+}
+/*secLoginEmail*/
+#secLoginEmail .v-input--switch__thumb .theme--light .primary--text{
+  color: #ffffff;
+}
+#secLoginEmail .theme--light.v-input--switch .v-input--switch__track {
+  color: #839FC3;
+}
+#secLoginEmail .v-application .primary--text {
+  color: #fff !important;
+}
+#secLoginEmail .theme--light.v-icon{
+  color: #E5E2DC;
+  opacity: 0.5;
+  width: 16px;
+  height: 10px;
+}
+#secLoginEmail .container .toggleConfig .v-input__slot .v-input--switch__thumb {
+  background-color: #fff;
+}
+/*myHeader*/
+#myHeader .header-container {
+  background-color: #252422; 
+}
+#myHeader .header-container .brandHeader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#myHeader .header-container .brandHeader {
+  width: 14%;
+}
+#myHeader .header-container {
+  padding: 0px;
+}
+/*myFooter*/
+#myFooter .footer-container {
+  background-color: #252422; 
+}
+#myFooter .footer-container {
+  padding: 0px;
+}
+#myFooter .menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 50;
+  left: 0;
+  background-color: #252422;
+  right: 0;
+}
+#myFooter .menu a {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: center;
+}
+#myFooter .menu .imgIcon {
+  width: 100%;
+  height: 30px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+  margin: 5px 0px 1px 0px;
+}
+/*newpost*/
+#newpost {
+  margin-bottom: 60px;
+}
+#newpost .coluna {
+  padding-right: 26px;
+  padding-left: 22px;
+}
+#newpost .title {
+  position: relative;
+  margin: 10px 0;
+}
+#newpost .title .leftBtn {
+  position: absolute;
+  left: 0;
+  z-index: 50;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #3d5a80;
+  margin: 0;
+}
+#newpost .title h2 {
+  text-align: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3d5a80;
+}
+#newpost .menuPost {
+  padding: 15px 0px;
+}
+#newpost .selectCategories h4 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3d5a80;
+}
+#newpost .menuPost h4 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3d5a80;
+}
+#newpost .menuPost label {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #3d5a80;
+  display: inline-grid;
+  margin: 10px 0 20px;
+}
+#newpost .menuPost .newPhoto {
+  margin-right: 10px;
+}
+#newpost .menuPost .newPhoto img {
+  border: 3px solid #ee6c4d;
+  box-sizing: border-box;
+  margin-right: 5px;
+  border-radius: 10px;
+  color: #ee6c4d;
+  padding: 10px 12px;
+  font-size: 50px;
+}
+#newpost .selectCategories .tagsSelect .v-input__append-inner {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#newpost .selectCategories .tagsSelect .v-input__append-inner i {
+  color: #ee6c4d !important;
+}
+#newpost .selectCategories .tagsSelect .v-select__selections input {
+  color: black;
+}
+#newpost .selectCategories .tagsSelect {
+  border: 3px solid #ee6c4d;
+  padding: 0;
+  border-radius: 10px;
+}
+#newpost .selectCategories .tagsSelect .v-select__selections .v-chip--select {
+  background-color: #ee6c4d;
+}
+#newpost .selectCategories .tagsSelect .v-select__selections .v-chip__content,
+#newpost .selectCategories .tagsSelect .v-select__selections button {
+  color: #fff;
+}
+#newpost .selectCategories .tagsSelect .v-input__slot {
+  padding: 0 12px;
+  margin-bottom: 0;
+}
+.v-autocomplete.v-input>.v-input__control>.v-input__slot::before, .v-autocomplete.v-input>.v-input__control>.v-input__slot::after {
+  content: "";
+  display: none;
+}
+#newpost .menuPost .contentPost {
+  overflow: auto;
+}
+#newpost .menuPost .contentPost legend {
+  height: 15px;
+}
+#newpost .menuPost .contentPost .v-text-field__slot textarea {
+  margin-bottom: 10px;
+}
+#newpost .menuPost .v-text-field--outlined fieldset {
+  border: 3px solid #ee6c4d;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#newpost .menuPost .myPostList {
+  position: relative;
+  height: 85px;
+  width: 100%;
+  overflow: auto;
+  padding-top: 0;
+}
+#newpost .menuPost .myPostList .myImage {
+  position: absolute;
+  width: max-content;
+  height: 85px;
+  max-height: max-content;
+  display: flex;
+  align-items: center;
+}
+#newpost .menuPost .myPostList .myImage img, #newpost .menuPost .myPostList .myVideo video {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+#newpost .menuPost .myPostList .v-badge__wrapper {
+  left: -15px;
+}
+#newpost .menuPost .myPostList .v-badge--icon .v-badge__badge {
+  background-color: #ed3237 !important;
+  border-color: #ed3237 !important;
+}
+#newpost .menuPost .limiter {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3d5a80;
+}
+#newpost .btnPost {
+  background-color: #3d5a80;
+  border-radius: 10px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #e5e2dc;
+}
+/*postTimeLine*/
+#postTimeLine {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-direction: column;
+  margin: 10px 10px 50px 10px;
+}
+#postTimeLine .boxTimeline .imgPost, #secProfile .boxTimeline .imgPost, #secViewProfile .boxTimeline .imgPost {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: auto;
+}
+#postTimeLine .alertCopy {
+  position: fixed;
+  z-index: 150;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  border-radius: 0;
+}
+#postTimeLine .boxTimeline .lb .lb-item {
+  border: 0;
+}
+#postTimeLine .boxTimeline .boxHeader {
+  display: flex;
+  margin: 10px 20px;
+  position: relative;
+}
+#postTimeLine .boxTimeline .boxHeader a {
+  display: flex;
+  margin: 0px;
+  position: relative;
+}
+#postTimeLine .boxTimeline .boxHeader h2 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  padding: 0 8px;
+}
+#postTimeLine .boxTimeline .postSingle {
+  font-family: 'Work Sans', sans-serif;
+  text-align: unset;
+  color: rgba(0,0,0,.87);
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  margin: 0px;
+}
+#postTimeLine .boxTimeline .postSingle p {
+  padding: 0px 20px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  word-break:break-all;
+}
+#postTimeLine .boxTimeline .boxHeader .rightIcon  {
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+#postTimeLine .boxTimeline .boxHeader .rightIcon span {
+  color: #EE6C4D;
+}
+
+#postTimeLine .boxTimeline .actionsBox {
+  display: flex;
+  position: relative;
+  margin: 0 10px;
+}
+#postTimeLine .boxTimeline .diviserBorder {
+  border-bottom: 1px solid rgba(37, 36, 34, 0.2);
+  margin: 15px 20px;
+}
+#postTimeLine .boxTimeline .actionsBox .v-icon {
+  color: #EE6C4D;
+}
+#postTimeLine .boxTimeline .actionsBox .leftBtn {
+  padding: 0 4px;
+  display: flex;
+  width: fit-content;
+}
+#postTimeLine .boxTimeline .actionsBox .leftBtn p {
+  padding: 5px 5px;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+#postTimeLine .boxTimeline .actionsBox .leftBtn img {
+  width: 20px;
+}
+#postTimeLine .boxTimeline .actionsBox a {
+  margin: 0;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+#postTimeLine .boxTimeline .actionsBox .shareBtn { 
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+}
+#postTimeLine .boxTimeline .lb-modal-img {
+  left: 0;
+  right: 0;
+}
+#postTimeLine .boxTimeline .lb-modal-next {
+  right: 0px;
+}
+#postTimeLine .boxTimeline .lb-modal-prev {
+  left: 0;
+}
+#postTimeLine .boxTimeline .lb-modal-close {
+  border: none;
+}
+#postTimeLine .boxTimeline .btn-outline-primary:not(:disabled):not(.disabled):active, 
+#postTimeLine .boxTimeline .btn-outline-primary:not(:disabled):not(.disabled).active, 
+#postTimeLine .boxTimeline .show>.btn-outline-primary.dropdown-toggle,
+#postTimeLine .boxTimeline .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #EE6C4D !important;
+  border-color: #EE6C4D !important;
+}
+#postTimeLine .boxTimeline .lb-more {
+  font-size: 25px;
+  font-weight: 200;
+}
+/*viewPost*/
+#viewPost {
+  background-color: #403E3B;
+  height: 100%;
+}
+#viewPost .boxTimeline .boxHeader {
+  display: flex;
+  margin: 10px 20px;
+  position: relative;
+}
+#viewPost .boxTimeline .boxHeader a {
+  display: flex;
+  margin: 0px;
+  position: relative;
+}
+#viewPost .boxTimeline .boxHeader h2 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #E5E2DC;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  padding: 0 8px;
+}
+#viewPost .boxTimeline p {
+  padding: 0px 20px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #E5E2DC;
+}
+#viewPost .boxTimeline .boxHeader .rightIcon  {
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+#viewPost .boxTimeline video, #viewPost .boxTimeline .vue-slide .content img{
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: auto;
+}
+#viewPost .boxTimeline .vue-slide .spot > div {
+  width: 8px;
+  height: 8px;
+  border: 1px solid #7E7A77;
+  background-color: #7E7A77;
+}
+#viewPost .boxTimeline .vue-slide .spot > div.cur {
+  width: 8px;
+  border-radius: 50%;
+  background-color: #FFF;
+  border: 1px solid #FFF;
+}
+#viewPost .boxTimeline .boxHeader .rightIcon span {
+  color: #EE6C4D;
+}
+#viewPost .boxTimeline .actionsBox {
+  display: flex;
+  position: relative;
+  margin: 0 10px;
+}
+#viewPost .boxTimeline .actionsBox .shareBtn button .imgIcon, #secProfile .boxTimeline .actionsBox .shareBtn .imgIcon, #secViewProfile .boxTimeline .actionsBox .shareBtn .imgIcon, #postTimeLine .boxTimeline .actionsBox .shareBtn button .imgIcon {
+  width: 24px;
+  height: 24px;
+}
+#viewPost .boxTimeline .diviserBorder {
+  border-bottom: 1px solid rgba(37, 36, 34, 0.2);
+  margin: 15px 20px;
+}
+#viewPost .boxTimeline .actionsBox .v-icon {
+  color: #EE6C4D;
+}
+#viewPost .boxTimeline .actionsBox .leftBtn {
+  padding: 0 4px;
+  display: flex;
+  width: fit-content;
+}
+#viewPost .boxTimeline .actionsBox .leftBtn p {
+  padding: 5px 5px;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #E5E2DC;
+}
+#viewPost .boxTimeline .actionsBox a {
+  margin: 0;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+#viewPost .boxTimeline .actionsBox .shareBtn { 
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+}
+#viewPost .boxTimeline .lb-modal-img {
+  left: 0;
+  right: 0;
+}
+#viewPost .boxTimeline .lb-modal-next {
+  right: 0px;
+}
+#viewPost .boxTimeline .lb-modal-prev {
+  left: 0;
+}
+#viewPost .boxTimeline .lb-modal-close {
+  border: none;
+}
+#viewPost .boxTimeline .btn-outline-primary:not(:disabled):not(.disabled):active, 
+#viewPost .boxTimeline .btn-outline-primary:not(:disabled):not(.disabled).active, 
+#viewPost .boxTimeline .show>.btn-outline-primary.dropdown-toggle,
+#viewPost .boxTimeline .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #EE6C4D !important;
+  border-color: #EE6C4D !important;
+}
+#viewPost .boxTimeline .lb-more {
+  font-size: 25px;
+  font-weight: 200;
+}
+#viewPost .boxTimeline .goBack {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#viewPost .goBack .v-icon {
+  position: absolute;
+  z-index: 50;
+  color: #FFF;
+  padding: 7px 10px;
+  font-size: 28px;
+  left: 0;
+}
+#viewPost .goBack {
+  margin: 0 !important;
+}
+.arq-none {
+  display: none !important;
+}
+/*search*/
+#search {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;   
+  flex-direction: column;
+  margin: 10px 10px 45px 10px;
+}
+#search .title {
+  position: relative;
+  margin: 10px 0;
+}
+#search .title .leftBtn {
+  position: absolute;
+  left: 0;
+  z-index: 50;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #3D5A80;
+  margin: 0;
+}
+#search .title h2 {
+  text-align: center;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3D5A80;
+}
+#search .searchConfig h2{
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  color: #3D5A80;
+}
+#search .searchConfig .noLocation button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #3D5A80;
+  color: #E5E2DC;
+  border-radius: 7px;
+}
+#search .newsearch {
+  border: 3px solid #EE6C4D;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #EE6C4D;
+  padding: 24px 15px;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 10px 0;
+}
+#search .newsearch .formatSearch{
+  display: flex;
+  justify-content: space-between;
+}
+#search .newsearch .formatSearch .textUserSearch{
+  padding: 0px 24px;
+  color: #000000;
+}
+#search .newsearch .formatSearch .textUserSearch h3{
+  font-family: 'Work Sans';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000;
+}
+#search .newsearch .formatSearch .textUserSearch h6{
+  font-family: 'Work Sans';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+}
+#search .v-btn--round .v-btn__content .v-icon {
+  color: #3D5A80;
+  padding: 10px 12px 0px;
+  font-size: 65px;
+  margin-top: -15px;
+}
+#search .theme--light.v-icon {
+  color: #3D5A80;
+}
+#search input {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
+  color: #000000;
+}
+
+#search .searchConfig .primaryLoader {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+#search .searchConfig p {
+  text-align: center;
+  color: gray;
+}
+/*secMessage*/
+#secMessage {
+  background-color: #ffffff;
+  margin-bottom: 45px;
+}
+#secMessage .title {
+  position: relative;
+  height: 45px;
+  padding-top: 15px;
+}
+#secMessage .title .leftBtn {
+  position: absolute;
+  left: 0;
+  z-index: 50;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #3D5A80;
+  margin: 0;
+  padding-left: 10px;
+}
+#secMessage .title h2 {
+  text-align: center;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3D5A80;
+}
+#secMessage .newsearch {
+  background-color: #fff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  color: #EE6C4D;
+  padding: 10px 12px;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#secMessage .newsearch .dot {
+  background-color: #14866D;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+#secMessage .newsearch .formatSearch{
+  display: flex;
+  width: 75%
+}
+#secMessage .newsearch .formatSearch .textUserSearch{
+  padding: 0px 25px;
+  color: #000000;
+  width: 100%;
+}
+#secMessage .v-btn--round .v-btn__content .v-icon {
+  color: #3D5A80;
+  padding: 10px 12px 0px;
+  font-size: 65px;
+}
+#secMessage .theme--light.v-icon {
+  color: #3D5A80;
+}
+#secMessage input {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
+  color: #000000;
+}
+#secMessage .searchConfig p {
+  text-align: center;
+  color: gray;
+}
+#secMessage .textUserSearch h3 {
+  font-family: Work Sans;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #000;
+}
+#secMessage .textUserSearch p {
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #7E7A77;
+  margin-bottom: 0;
+}
+#secMessage .textUserSearch span {
+  padding: .3em .4em .4em;
+  text-align: center;
+  background-color: #EE6C4D;
+}
+#secMessage .colunaCerta {
+  background-color: #FCE0D9;
+  padding-bottom: 2px;
+}
+/*offline*/
+#offline .colTeste {
+  height: 600px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-height: 100%;
+  overflow: auto;
+}
+
+/* block page */
+#blockList {
+  background-color: #FCE0D9;
+}
+#blockList .goBack {
+  margin-top: 0;
+}
+#blockList .goBack .v-icon {
+  position: absolute !important;
+  z-index: 50;
+  color: #E5E2DC !important;
+  padding: 7px 10px;
+  font-size: 28px;
+  left: 0;
+  margin-top: 5px;
+}
+#headerBlock {
+  background-color: #fff;
+  padding: 10px;
+}
+#headerBlock .titleHeaderBlock {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+#headerBlock .titleHeaderBlock h2 {
+  margin-bottom: 0;
+}
+#usersBlock .noUsersBlock {
+  background-color: #fff;
+  padding: 15px;
+  align-items: center;
+}
+#usersBlock .noUsersBlock .goBackButton {
+  text-align: center;
+}
+#usersBlock .noUsersBlock h4{
+  text-align: center;
+}
+#usersBlock .noUsersBlock button{
+  background-color: #3D5A80;
+  color: #E5E2DC;
+  border-radius: 7px;
+}
+#usersBlock .colNoUsersBlock {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#usersBlock .colUsers {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#usersBlock .infUser {
+  background-color: #fff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  color: #EE6C4D;
+  padding: 22px 12px 5px;
+  font-size: 50px;
+  display: flex;
+}
+#usersBlock .infUser .usersData {
+  display: flex;
+  width: 75%;
+}
+#usersBlock .infUser .usersData .v-avatar {
+  margin-top: -10px;
+}
+#usersBlock .infUser .usersData .texts {
+  padding: 0px 25px;
+  color: #000000;
+  width: 100%;
+}
+#usersBlock .infUser .usersData .texts h3 {
+  font-family: Work Sans;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+#usersBlock .infUser .usersData .texts p {
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #7E7A77;
+}
+#usersBlock .infUser .unblockUser button {
+  margin-bottom: auto;
+  margin-top: auto;
+  display: block;
+  background-color: #3D5A80;
+  color: #E5E2DC;
+  border-radius: 7px;
+}
+/* chat messages */
+#chat .goBack {
+  margin-top: 0;
+}
+#chat .goBack .v-icon {
+  position: absolute !important;
+  z-index: 50;
+  color: #E5E2DC !important;
+  padding: 7px 10px;
+  font-size: 28px;
+  left: 0;
+  margin-top: 5px;
+}
+#secChat {
+  width: 100%;
+  float:left;
+  background: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #434651;
+}
+#secChat .chat-header {
+  display: flex;
+  padding: 10px 20px 5px 20px;
+  border-bottom: 5px solid #FCE0D9;
+}
+#secChat .inf {
+  padding-left: 20px;
+}
+#secChat .inf h3 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+#secChat .inf p {
+  display: inline-block;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 2px;
+}
+#secChat .inf .dot {
+  display: inline-block;
+  background-color: #14866D;
+  margin-left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+#secChat .chat-history {
+  padding: 20px 20px 0px;
+  overflow: scroll;
+  height: calc(100vh - 265px);
+}
+#secChat .chat-history .message {      
+  color: #000;
+  padding: 18px 20px;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  width: 90%;
+  word-wrap: break-word;
+  position: relative;
+  height: min-content;
+}
+#secChat .chat-history .other-message {
+  border-radius: 0px 20px 20px 20px;
+  background: #E5E2DC;
+  clear: both;
+}
+#secChat .chat-history .my-message {
+  border-radius: 20px 0px 20px 20px;
+  background: #E5E2DC;
+  float: right;
+}
+#secChat .chat-message {
+  bottom: 0;
+  z-index: 50;
+  background-color: #C4C4C4;
+  padding: 17px 15px 17px;
+  display: flex;
+}
+#secChat .chat-message .v-input{
+  height: 30px;
+  background: #E5E2DC;
+  border-radius: 43px;
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+#secChat .chat-message .v-input .v-input__slot {
+  max-height: 30px;
+  min-height: 30px !important;
+  margin-bottom: 0px;
+  padding: 0 5px !important;
+}
+#secChat .chat-message .v-input__control .v-text-field__details {
+  display: none;
+}
+#secChat .chat-message .v-input__slot .v-text-field__slot input{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000 !important;
+}
+#secChat .chat-message .btnText {
+  margin-left: 15px;
+  background-color: #b0a9a3;
+  border-radius: 8px;
+}
+#secChat .chat-message .btnText button {
+  margin-bottom: -5px;
+  padding-bottom: 5px;
+}
+#secChat .chat-history .hourText {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  float: right;
+}
+/* splash */
+#secSplash {
+  justify-content: center;
+  align-items: center;
+}

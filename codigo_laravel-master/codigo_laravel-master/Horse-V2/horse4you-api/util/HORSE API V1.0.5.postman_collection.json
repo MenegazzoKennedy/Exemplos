@@ -1,0 +1,863 @@
+{
+	"info": {
+		"_postman_id": "b40a551a-4f91-4418-b93a-62926477edac",
+		"name": "HORSE API V1.0.5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "COMMENT",
+			"item": [
+				{
+					"name": "EXIBIR TODOS",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{URL}}/comments?idpost=69",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"comments"
+							],
+							"query": [
+								{
+									"key": "idpost",
+									"value": "69"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "INSERIR NO POST",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"texto\":\"Kennedy\",\r\n\t\"idpost\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/comments",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"comments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{URL}}/comments/2",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"comments",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "USUARIO",
+			"item": [
+				{
+					"name": "LOGIN",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const body = JSON.parse(responseBody);\r",
+									"\r",
+									"const userToken = body.token;\r",
+									"const userEmail = body.email;\r",
+									"\r",
+									"postman.setEnvironmentVariable(\"USER_TOKEN\", userToken);\r",
+									"postman.setEnvironmentVariable(\"USER_EMAIL\", userEmail);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\":\"rodolfo@maiscode.com.br\",\n\t\"password\":\"123456789\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/auth/singin",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"auth",
+								"singin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MEUS DADOS",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{URL}}/auth/me",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"auth",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "REGISTER",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Rodolfo\",\n\t\"email\":\"rodolfo@maiscode.com.br\",\n    \"aniversario\":\"1994-12-17\",\n\t\"password\":\"123456789\",\n\t\"password_confirmation\":\"123456789\",\n    \"perfil\":3,\n    \"tags\":[\n        1,2\n    ]\n}"
+						},
+						"url": {
+							"raw": "{{URL}}/user/register",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SAIR",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{URL}}/auth/singout",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"auth",
+								"singout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SEGUIR",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userid\" : 2,\r\n    \"follower\" : \"unfollower\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/followers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"followers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE PERFIL",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Rodolfo\",\r\n    \"nick\":\"Rodolfo\",\r\n    \"descricao\":\"Rodolfo\",\r\n    \"site\":\"Rodolfo\",\r\n    \"estado\": 12,\r\n    \"cidade\": 4141,\r\n    \"bairro\": 6108,\r\n    \"endereco\":\"Rua Do Jardim\",\r\n    \"numero\": 10,\r\n    \"cep\":\"79042-902\",\r\n    \"telefone\":\"67-99823-0393\",\r\n    \"genero\":\"1\",\r\n    \"perfil\": 3,    \r\n    \"tags\":[\r\n        1,5\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/profile/update/1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"profile",
+								"update",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE AVATAR",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "arquivo",
+									"type": "file",
+									"src": "/C:/Users/kennedy.carvalho/Pictures/Screenshots/Captura de Tela (3).png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/profile/avatar/update",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"profile",
+								"avatar",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RECUPERAR SENHA",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"email\":\"teste@maiscode.com.br\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/user/forgot-password",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"user",
+								"forgot-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RECUPERAR SENHA 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"password_reset_code\":\"token\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/user/reset-password-token",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"user",
+								"reset-password-token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RECUPERAR SENHA 3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"password_token\":\"token\",\r\n\t\"password\":\"novasenha\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/user/new-password",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"user",
+								"new-password"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TAGS",
+			"item": [
+				{
+					"name": "EXIBIR TAGS",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"iduserB\":\"register\",\r\n    \"iduser\":\"top10\"\r\n}"
+						},
+						"url": {
+							"raw": "{{URL}}/tags",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"tags"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "EXIBIR POST DO USER",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"iduser\":\"me\"\r\n}"
+						},
+						"url": {
+							"raw": "{{URL}}/posts",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "INSERIR",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"texto\":\"texto\"\n}"
+						},
+						"url": {
+							"raw": "{{URL}}/posts",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer{{USER_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{URL}}/posts/1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer{{USER_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"texto\":\"texto novo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/posts/1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LIKES",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"texto\":\"Kennedy\"\n}"
+						},
+						"url": {
+							"raw": "{{URL}}/likes",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"likes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPLOAD POST",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "arquivo",
+									"type": "file",
+									"src": "/C:/Users/kennedy.carvalho/Pictures/Screenshots/Captura de Tela (5).png"
+								},
+								{
+									"key": "post_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/posts/upload/file",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"posts",
+								"upload",
+								"file"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EXIBIR POST SOLO",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/posts/1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LOCALIDADE",
+			"item": [
+				{
+					"name": "EXIBIR CIDADES",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{URL}}/localidades/cidades/12",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"localidades",
+								"cidades",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EXIBIR ESTADOS",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{URL}}/localidades/estados",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"localidades",
+								"estados"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EXIBIR LOCAIS E BAIRROS DE UMA CIDADE",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{USER_TOKEN}}",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{URL}}/localidades/4141/locaisBairros",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"localidades",
+								"4141",
+								"locaisBairros"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "VALIDAR API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{URL}}/validarapi",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"validarapi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LIMPAR CACHE",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{URL}}/clear",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"clear"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="ic_colaboradores" transform="translate(0 0.5)">
+    <rect id="Retângulo_37" data-name="Retângulo 37" width="32" height="32" transform="translate(0 -0.5)" fill="none"/>
+    <g id="Grupo_31" data-name="Grupo 31" transform="translate(0 -299)">
+      <path id="Caminho_55" data-name="Caminho 55" d="M3,310.5H30" fill="none" stroke="#0047ba" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.5"/>
+      <path id="Caminho_56" data-name="Caminho 56" d="M12.855,316.5H9" fill="none" stroke="#0047ba" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.5"/>
+      <path id="Caminho_57" data-name="Caminho 57" d="M25.5,325.5H7.5A4.5,4.5,0,0,1,3,321V309a4.5,4.5,0,0,1,4.5-4.5h18A4.5,4.5,0,0,1,30,309v12A4.5,4.5,0,0,1,25.5,325.5Z" fill="none" stroke="#0047ba" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
